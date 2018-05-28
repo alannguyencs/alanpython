@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b17f71f-54f6-41ff-8227-f0a5c80fc3ba" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alanMatplotlib/assets/cat.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alanMatplotlib/plotImage.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alanMatplotlib/plotting.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alanMatplotlib/plottingWithLegend.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/alanMatplotlib/subPlot.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/cs231n/01_nearestNeighborMain.py" />
+      <change type="NEW" beforePath="" afterPath="$USER_HOME$/PycharmProjects/cs231n/nearestNeighbor.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/alanpython.iml" afterPath="$PROJECT_DIR$/.idea/alanpython.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,26 +32,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="array.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alanNumpy/array.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="51" lean-forward="false" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrayIndexing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/alanNumpy/arrayIndexing.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="70" column="47" lean-forward="false" selection-start-line="70" selection-start-column="47" selection-end-line="70" selection-end-column="47" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="datatypes.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alanNumpy/datatypes.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,7 +56,7 @@
         <entry file="file://$PROJECT_DIR$/alanScipy/imageOperation.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+              <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -86,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/alanScipy/computeDistance.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -98,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/alanMatplotlib/plotting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -122,7 +102,7 @@
         <entry file="file://$PROJECT_DIR$/alanMatplotlib/subPlot.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+              <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
               </folding>
@@ -130,13 +110,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plotImage.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plotImage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/alanMatplotlib/plotImage.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nearestNeighbor.py" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/PycharmProjects/cs231n/nearestNeighbor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01_nearestNeighborMain.py" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/PycharmProjects/cs231n/01_nearestNeighborMain.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,7 +154,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$/PycharmProjects/cs231n" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -168,6 +170,8 @@
         <option value="$PROJECT_DIR$/alanMatplotlib/plotting2.py" />
         <option value="$PROJECT_DIR$/alanMatplotlib/subPlot.py" />
         <option value="$PROJECT_DIR$/alanMatplotlib/plotImage.py" />
+        <option value="$USER_HOME$/PycharmProjects/cs231n/nearestNeighbor.py" />
+        <option value="$USER_HOME$/PycharmProjects/cs231n/01_nearestNeighborMain.py" />
       </list>
     </option>
   </component>
@@ -179,10 +183,10 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="31" />
-    <option name="width" value="1494" />
+    <option name="width" value="1347" />
     <option name="height" value="903" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
@@ -203,6 +207,16 @@
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="alanpython" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cs231n" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="alanpython" />
@@ -610,16 +624,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="31" width="1494" height="903" extended-state="0" />
-    <editor active="false" />
+    <frame x="0" y="31" width="1347" height="903" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27816093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
@@ -687,7 +701,7 @@
     <entry file="file://$PROJECT_DIR$/alanScipy/imageOperation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+          <caret line="9" column="61" lean-forward="false" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
           <folding />
         </state>
       </provider>
@@ -695,7 +709,7 @@
     <entry file="file://$PROJECT_DIR$/alanScipy/computeDistance.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -705,7 +719,7 @@
     <entry file="file://$PROJECT_DIR$/alanMatplotlib/plotting.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -725,7 +739,7 @@
     <entry file="file://$PROJECT_DIR$/alanMatplotlib/subPlot.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -738,6 +752,24 @@
           <caret line="18" column="10" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/cs231n/nearestNeighbor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="10" lean-forward="false" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/PycharmProjects/cs231n/01_nearestNeighborMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
           </folding>
         </state>
       </provider>
