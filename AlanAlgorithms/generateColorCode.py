@@ -1,5 +1,9 @@
 import math
 
+
+BLACK = (0, 0, 0)
+WHITE = (255, 255, 255)
+
 def get_list_color(num_color):
     list_color = [255]
     if num_color > 1:
@@ -14,6 +18,7 @@ def generate_color_code(num_colors=5):
     assert (num_colors > 0)
     #given number of color code, generate reasonable RGB code
     #step 1: because RGB has 3 channels --> find a cube root
+    num_colors += 2  #then remove BLACK and WHITE later
     num_R = int(math.ceil(num_colors ** (1./3.)))
     num_B = int(math.ceil((num_colors / num_R) ** (1./2.)))
     num_G = int (math.ceil(num_colors / (num_R * num_B)))
@@ -30,6 +35,8 @@ def generate_color_code(num_colors=5):
                 color_code_list.append((r, g, b))
 
 
+    color_code_list.remove(BLACK)
+    color_code_list.remove(WHITE)
     print (color_code_list)
     return color_code_list[:num_colors]
 
