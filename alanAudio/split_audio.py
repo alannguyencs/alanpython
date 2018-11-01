@@ -19,11 +19,11 @@ def audio_split(origin_file, result_file, time_period):
     result_sound.export((result_file), format="mp3")
 
 #=====================================================================================================
-origin_path = "C:/Users/tnguyenhu2/Downloads/Cambridge_ielts_8/Cambridge ielts 8/CD1/"
+origin_path = "D:/Cambridge ielts 8/CD1/"
 result_path = "C:/Users/tnguyenhu2/Dropbox/English/ielts/audio/"
 
-origin_file = origin_path + "Track 1.mp3"
-result_file = result_path + "8_1.mp3"
+origin_file = origin_path + "Track 5.mp3"
+result_file = result_path + "8_5.mp3"
 
-time_period = [("2:20", "3:35"), ("4:30", "6:20")]
+time_period = [("2:20", "4:05"), ("4:49", "7:13")]
 audio_split(origin_file, result_file, time_period)
